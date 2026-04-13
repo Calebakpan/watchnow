@@ -1,0 +1,6 @@
+.home { background: var(--dark); }
+.home-rows { margin-top: -80px; position: relative; z-index: 2; padding-bottom: 4rem; }
+
+@media (max-width: 768px) {
+  .home-rows { margin-top: -40px; }
+}

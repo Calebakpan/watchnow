@@ -1,0 +1,24 @@
+.mylist-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem 4%;
+  text-align: center;
+  gap: 12px;
+}
+.mylist-icon {
+  font-size: 3rem;
+  color: var(--muted2);
+  margin-bottom: 8px;
+}
+.mylist-empty p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.mylist-empty span {
+  font-size: 14px;
+  color: var(--muted);
+  max-width: 320px;
+  line-height: 1.6;
+}
